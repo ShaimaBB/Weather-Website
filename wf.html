@@ -35,8 +35,6 @@
                     }
 
                     const weatherData = await response.json();
-
-                    // Replace input box with weather details and a back button
                     container.innerHTML = `
                         <div class="weather-details">
                             <p class="temperature"><b>${weatherData.temperature}°C</b></p>

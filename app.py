@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify
 import requests
-from flask_cors import CORS  # Add CORS for cross-origin support
+from flask_cors import CORS  
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
-API_KEY = 'a48d3f43096ab0de7cfc5201678b427b'  # Replace with your OpenWeatherMap API key
+CORS(app)  
+API_KEY = 'a48d3f43096ab0de7cfc5201678b427b'  
 
 @app.route('/get_weather', methods=['POST'])
 def get_weather():
