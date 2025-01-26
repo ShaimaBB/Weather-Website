@@ -80,6 +80,6 @@ To test the project locally:
 
 ---
 
-## ✨ Author
+## 🧑‍💻 Creator
 
 **Shaima Bashar**
