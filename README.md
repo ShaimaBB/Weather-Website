@@ -72,21 +72,6 @@ To test the project locally:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 💬 Acknowledgments
 
 - OpenWeatherMap API for weather data.
