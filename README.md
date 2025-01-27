@@ -64,6 +64,12 @@ The Flask API is hosted on Render.
 
 ---
 
+## 🛠️ Status
+- **In Progress**
+
+
+---
+
 ## 🧑‍💻 Creator
 
 **Shaima Bashar**
