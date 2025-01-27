@@ -3,11 +3,8 @@ import requests
 from flask_cors import CORS
 import os
 
-
 app = Flask(__name__)
-CORS(app)
-CORS(app, resources={r"/*": {"origins": "*"}})
-
+CORS(app, resources={r"/*": {"origins": "https://shaimabb.github.io"}})
 
 API_KEY = 'a48d3f43096ab0de7cfc5201678b427b'
 
@@ -39,6 +36,11 @@ def get_weather():
         "humidity": weather_data["main"].get("humidity")
     })
 
+@app.route('/')
+def index():
+    return "Weather API is running!"
+
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000)) 
-    app.run(host='0.0.0.0', port=port, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
+
