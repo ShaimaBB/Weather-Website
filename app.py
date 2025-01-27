@@ -6,6 +6,8 @@ import os
 
 app = Flask(__name__)
 CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
+
 
 API_KEY = 'a48d3f43096ab0de7cfc5201678b427b'
 
