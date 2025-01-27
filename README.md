@@ -1,6 +1,6 @@
 # Weather Website 🌤️
 
-This is a simple weather website that provides real-time weather updates for any city. Users can input a city name to get the current temperature, weather description, and humidity. The frontend is built with HTML, CSS, and JavaScript, while the backend uses Flask. The application is hosted on Render for the backend and GitHub Pages for the frontend.
+This is a simple weather website that provides real-time weather updates for any city. Users can input a city name to get the current temperature, weather description, and humidity.
 
 ---
 
@@ -26,24 +26,14 @@ This is a simple weather website that provides real-time weather updates for any
 ## 🛠️ Technologies Used
 
 ### Frontend
-- HTML
-- CSS (with animations)
-- JavaScript
+- HTML, CSS, JavaScript
 
 ### Backend
-- Flask (Python)
-- Flask-CORS
+- Flask (Python), Flask-CORS
 - OpenWeatherMap API for weather data
 
 ---
 
-## 📋 Prerequisites
-
-To run the project locally, you need:
-- Python 3.8 or above.
-- A valid API key from [OpenWeatherMap](https://openweathermap.org/).
-
----
 ## 🌐 Hosting
 
 ### Frontend (GitHub Pages)
@@ -56,7 +46,7 @@ The Flask API is hosted on Render. Access it [here](https://your-render-backend-
 
 ## 📖 How It Works
 
-1. Users enter a city name on the webpage.
+1. Users enter a city name on User input section on the webpage.
 2. The frontend sends the city name to the backend API.
 3. The backend uses the OpenWeatherMap API to fetch weather data.
 4. The frontend displays the data in a styled weather card.
