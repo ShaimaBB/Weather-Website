@@ -1,13 +1,13 @@
 # Weather Website 🌤️
 
-This is a simple weather website that provides real-time weather updates for any city. Users can input a city name to get the current temperature, weather description, and humidity.
+This is a simple weather website that provides real-time weather updates for any city. Users can input a city name to get the current temperature(in Celsius) and weather description.
 
 ---
 
-## 🚀 Live Demo
+## 🚀  Demo
 
-- **Frontend (User Interface):** [Weather Website on GitHub Pages](https://yourusername.github.io/Weather-Website/)
-- **Backend (API):** [Weather API on Render](https://your-render-backend-url.onrender.com)
+[Weather Website on GitHub Pages](https://github.com/ShaimaBB/Weather-Website/blob/45acc6477514c3ed17a2935d9fd686ca390f2f6d/weathervid.mp4)
+
 
 ---
 
