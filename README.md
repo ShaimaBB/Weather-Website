@@ -37,10 +37,10 @@ This is a simple weather website that provides real-time weather updates for any
 ## 🌐 Hosting
 
 ### Frontend (GitHub Pages)
-The frontend is hosted on GitHub Pages. Access it [here](https://yourusername.github.io/Weather-Website/).
+The frontend is hosted on GitHub Pages.
 
 ### Backend (Render)
-The Flask API is hosted on Render. Access it [here](https://your-render-backend-url.onrender.com).
+The Flask API is hosted on Render. 
 
 ---
 
