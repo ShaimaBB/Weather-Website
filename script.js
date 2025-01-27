@@ -4,7 +4,7 @@ async function getWeather() {
 
     if (location) {
         try {
-            const response = await fetch('https://weather-website-szm0.onrender.com', {
+            const response = await fetch('https://weather-website-szm0.onrender.com/get_weather', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
