@@ -53,14 +53,6 @@ The Flask API is hosted on Render.
 3. The backend uses the OpenWeatherMap API to fetch weather data.
 4. The frontend displays the data in a styled weather card.
 
----
-
-## 🔧 Local Development
-
-To test the project locally:
-1. Start the backend server (`python app.py`).
-2. Open `wf.html` in your browser.
-3. Ensure the fetch URL in `wf.html` points to `http://127.0.0.1:5000/get_weather`.
 
 ---
 
