@@ -32,7 +32,7 @@ Here is the link to my website [here](https://shaimabb.github.io/Weather-Website
 
 ### Backend
 - Flask (Python), Flask-CORS
-- OpenWeatherMap API for weather data
+- OpenWeatherMap API for Weather Data
 
 ---
 
